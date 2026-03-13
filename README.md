@@ -26,7 +26,7 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 PROGRAM :
-server.py
+server
 ```
 import socket
 import os
@@ -62,7 +62,7 @@ while True:
 conn.close()
 server.close()
 ```
-client.py:
+client:
 ```
 import socket
 
